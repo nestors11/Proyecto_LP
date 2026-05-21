@@ -11,6 +11,15 @@ uvicorn app.main:app --reload
 
 Luego abre http://localhost:8000
 
+## Ejecutar con Docker
+
+```bash
+docker build -t miniql .
+docker run --rm -p 8000:8000 miniql
+```
+
+Luego abre http://localhost:8000
+
 ## Sintaxis
 
 ```sql
